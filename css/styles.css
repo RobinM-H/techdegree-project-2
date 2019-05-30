@@ -12,7 +12,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     line-height: 1.8em;
-    background: rgb(252, 249, 249);
 }
 
 p {
@@ -46,9 +45,16 @@ ul {
 
 .name {
     padding: 20px 0;
+    margin: 0;
+    text-align: center;
 }
 
 .name,
+.main-nav {
+    background: rgb(218, 30, 30);
+    margin: 0;
+}
+
 .main-nav li{
     text-align: center;
     margin-top: 5px;
@@ -76,7 +82,7 @@ ul {
 /* ---- Layout Containers ---- */
 
 .main-header {
-
+    
 }
 
 
@@ -86,9 +92,7 @@ ul {
 
 }
 
-#wrapper {
-    background: white;
-}
+
 
 .main-footer {
     
