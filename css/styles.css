@@ -1,5 +1,98 @@
-/* base styles */
+/* BASE STYLES */
 
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+    color: rgba(71, 71, 71, 0.863);
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    line-height: 1.8em;
+    background: rgb(252, 249, 249);
+}
+
+p {
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+
+
+/* ---- BASE LAYOUT STYLES ---- */
+
+
+
+
+/* ---- Navigation ---- */
+
+.name {
+    padding: 20px 0;
+}
+
+.name,
+.main-nav li{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.name a,
+.main-nav a {
+    display: block;
+    color: rgba(71, 71, 71, 0.863);
+}
+
+.main-nav li {
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+    background: white;
+}
+
+.main-nav {
+    margin-bottom: 50px;
+}
+
+/* ---- Layout Containers ---- */
+
+.main-header {
+
+}
+
+
+.container {
+    text-align: center;
+    margin: 0 15px;
+
+}
+
+#wrapper {
+    background: white;
+}
+
+.main-footer {
+    
+}
 
 
 /* main styles */
@@ -8,18 +101,13 @@
 
 /* layout styles */
 
-.main-header {
 
-}
 
-.container {
-
-}
 
 .name {
 
 }
 
 .main-nav {
-
+  
 }
