@@ -29,9 +29,9 @@ a {
 }
 
 ul {
-    padding: 0;
     margin: 0;
     list-style-type: none;
+    padding: 0 0 70px 0;
 }
 
 
@@ -44,22 +44,18 @@ ul {
 /* ---- Navigation ---- */
 
 .name {
-    padding: 20px 0;
+    padding: 40px 0;
     margin: 0;
     text-align: center;
 }
 
 .name,
 .main-nav {
-    background: rgb(218, 30, 30);
+    
     margin: 0;
 }
 
-.main-nav li{
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
+
 
 .name a,
 .main-nav a {
@@ -73,22 +69,36 @@ ul {
     font-size: 1em;
     font-weight: bold;
     background: white;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
 }
 
 .main-nav {
-    margin-bottom: 50px;
+    background: lightblue;
+    margin: 0;
 }
 
 /* ---- Layout Containers ---- */
 
 .main-header {
-    
+    background:lightblue;
 }
 
 
 .container {
     text-align: center;
     margin: 0 15px;
+    background: lightblue;
+
+}
+
+.nav-container {
+    text-align: center;
+    margin: 0 15px;
+    background: lightblue;
+    padding: 20px 0;
 
 }
 
